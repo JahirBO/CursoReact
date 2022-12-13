@@ -1,4 +1,5 @@
 import React from "react";
+import {Link,NavLink} from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const Encabezado = () => {
@@ -8,23 +9,23 @@ const Encabezado = () => {
         <div className="col-md-12">
                 <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#"> <img src={"images/Icon.png"} alt={"Icon of Pokemon Center"} width={350}/></a>
+              <Link className="navbar-brand" to={"/"}> <img src={"/images/Icon.png"} alt={"Icon of Pokemon Center"} width={350}/></Link>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Home</a>
+                    <NavLink className="nav-link" to={"/"}>Home</NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Productos</a>
+                    <NavLink className="nav-link" to={"/category/Basicos"}>Pokemon Basicos</NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Nosotros</a>
+                    <NavLink className="nav-link" to={"/category/Legendarios"}>Pokemon Legendarios</NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Contacto</a>
+                    <NavLink className="nav-link" to={"/"}>Contacto</NavLink>
                   </li>
                   <li>
                     <CartWidget />

@@ -5,7 +5,7 @@ const PromocionApp = () => {
         <div className="container">
         <div className="row">
             <div className="col-md-6 d-flex align-items-center justify-content-center">
-            <img src={"images/pokemon 6.jpg"} alt={"Promocion Greninja Evolutions Figure"} width={320} />
+            <img src={"/images/pokemon 6.jpg"} alt={"Promocion Greninja Evolutions Figure"} width={320} />
             </div>
             <div className="col-md-6 d-flex align-items-center justify-content-center">
                 <h3>
