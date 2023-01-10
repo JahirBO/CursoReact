@@ -1,8 +1,8 @@
 [
-    {"id":1, "nombre":"Metagross", "descripcion":"escultura de las evoluciones de metagross ", "imagen":"/images/pokemon 1.webp", "precio":1500, "stock":10, "categoria":"Basicos"},
-    {"id":2, "nombre":"Perros legendarios y ho-oh", "descripcion":"Los legendarios de la region de johto.", "imagen":"/images/pokemon 2.webp", "precio":1600, "stock":10, "categoria":"Legendarios"},
-    {"id":3, "nombre":"Mewtwo y equipo", "descripcion":"Mewtwo y su equipo pokemon", "imagen":"/images/pokemon 3.webp", "precio":1400, "stock":10, "categoria":"Legendarios"},
-    {"id":4, "nombre":"Rayquaza", "descripcion":"Pokemon legendario Rayquaza", "imagen":"/images/pokemon 4.jpg", "precio":1600, "stock":10, "categoria":"Legendarios"},
-    {"id":5, "nombre":"Machop", "descripcion":"Escultura de las evoluciones de machop", "imagen":"/images/pokemon 5.jpg", "precio":1200, "stock":10, "categoria":"Basicos"},
-    {"id":6, "nombre":"Greninja", "descripcion":"escultura de las evoluciones de Greninja ", "imagen":"/images/pokemon 6.jpg", "precio":1300, "stock":10, "categoria":"Basicos"}
+    {"index":1, "nombre":"Metagross", "descripcion":"escultura de las evoluciones de metagross ", "imagen":"/images/pokemon 1.webp", "precio":1500, "stock":10, "categoria":"Basicos"},
+    {"index":2, "nombre":"Perros legendarios y ho-oh", "descripcion":"Los legendarios de la region de johto.", "imagen":"/images/pokemon 2.webp", "precio":1600, "stock":10, "categoria":"Legendarios"},
+    {"index":3, "nombre":"Mewtwo y equipo", "descripcion":"Mewtwo y su equipo pokemon", "imagen":"/images/pokemon 3.webp", "precio":1400, "stock":10, "categoria":"Legendarios"},
+    {"index":4, "nombre":"Rayquaza", "descripcion":"Pokemon legendario Rayquaza", "imagen":"/images/pokemon 4.jpg", "precio":1600, "stock":10, "categoria":"Legendarios"},
+    {"index":5, "nombre":"Machop", "descripcion":"Escultura de las evoluciones de machop", "imagen":"/images/pokemon 5.jpg", "precio":1200, "stock":10, "categoria":"Basicos"},
+    {"index":6, "nombre":"Greninja", "descripcion":"escultura de las evoluciones de Greninja ", "imagen":"/images/pokemon 6.jpg", "precio":1300, "stock":10, "categoria":"Basicos"}
 ]

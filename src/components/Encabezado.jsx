@@ -24,9 +24,6 @@ const Encabezado = () => {
                   <li className="nav-item">
                     <NavLink className="nav-link" to={"/category/Legendarios"}>Pokemon Legendarios</NavLink>
                   </li>
-                  <li className="nav-item">
-                    <NavLink className="nav-link" to={"/"}>Contacto</NavLink>
-                  </li>
                   <li>
                     <CartWidget />
                   </li>
